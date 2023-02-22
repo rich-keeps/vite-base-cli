@@ -1,0 +1,22 @@
+/* 全局字体设置 */
+.common-family {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica,
+    Segoe UI, Arial, Roboto, "PingFang SC", "miui", "Hiragino Sans GB",
+    "Microsoft Yahei", sans-serif;
+}
+/* 单行文字溢出隐藏 */
+.common-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* 多行行文字溢出隐藏 */
+.common-multi-ellipsis--l2 {
+  overflow: hidden;
+  display: -webkit-box;
+
+  text-overflow: ellipsis;
+
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
