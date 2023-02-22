@@ -13,14 +13,14 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": aliasPath("/src"),
-      api: aliasPath("/src/api"),
-      ast: aliasPath("/src/assets"),
-      com: aliasPath("/src/components"),
-      libs: aliasPath("/src/libs"),
-      route: aliasPath("/src/route"),
-      store: aliasPath("/src/store"),
-      sty: aliasPath("/src/styles"),
-      views: aliasPath("/src/views"),
+      "@api": aliasPath("/src/api"),
+      "@assets": aliasPath("/src/assets"),
+      "@com": aliasPath("/src/components"),
+      "@libs": aliasPath("/src/libs"),
+      "@route": aliasPath("/src/route"),
+      "@store": aliasPath("/src/store"),
+      "@styles": aliasPath("/src/styles"),
+      "@views": aliasPath("/src/views"),
     },
   },
 });
